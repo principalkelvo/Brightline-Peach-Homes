@@ -15,12 +15,9 @@
     overflow: hidden;
 }
 
-.section.hero .columns p.content {
-    font-size: 1.5em;
-    color: #d4d4d4;
-}
+
+
 .title {
-    text-align: left;
     width: 60%;
     font-size: 1.7em;
 line-height: 2.7rem;
@@ -28,7 +25,7 @@ letter-spacing: 0.11em;
 }
 .image{
     height: 16.5em;
-    width: 17em;
+    width: 18em;
     position: relative;
     border: 2px solid black;
     border-radius: 5em 0px;

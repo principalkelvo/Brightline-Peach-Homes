@@ -1,37 +1,45 @@
 .navHero {
-    width: 100%;
-    max-height: 100vh;
-    min-height: calc(100vh - .25em);
-    /* overflow: hidden; */
-    position: relative;
-    background-image: url(../../wave.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: var(--lightBlue);
-    background-position: center;
-
+  width: 100%;
+  max-height: 100vh;
+  min-height: calc(100vh - 0.25em);
+  /* overflow: hidden; */
+  position: relative;
+  background-image: url(../../wave.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--lightBlue);
+  background-position: center;
 }
 .navbar {
-    min-width: 3.25rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
+  min-width: 3.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.navbar .navbarItems ul{
-    margin: 1em;
+.navbar .navbarItems ul {
+  margin: 1em;
 }
 
 .navbar .navbarItems li {
-    display: inline-block;
-    padding: .5rem;
-    font-size: 1rem;
-    text-decoration: none;
-    padding-bottom: .5em;
-    transition: all .3s ease-in-out;
+  display: inline-block;
+  padding: 0.5rem;
+  font-size: 1rem;
+  text-decoration: none;
+  padding-bottom: 0.5em;
+  transition: all 0.3s ease-in-out;
 }
 .navbar .navbarItems li:hover {
-    border-bottom: 2px solid var(--black);
-    cursor: pointer;
+  border-bottom: 2px solid var(--black);
+  cursor: pointer;
+}
+
+.navbarItems.logo {
+  font-weight: 500;
+  line-height: 1.8125rem;
+  /* identical to box height */
+
+  color: #000000;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }

@@ -14,7 +14,9 @@ function Navbar() {
             <li>ContactUs</li>
           </ul>
         </div>
-        <div className={NavbarCSS.navbarItems}>logo</div>
+        <div className={NavbarCSS.navbarItems + " " + NavbarCSS.logo}>
+          Brightline Peach Homes
+        </div>
         <div className={NavbarCSS.navbarItems}>
           <ul>
             <li>Home</li>
