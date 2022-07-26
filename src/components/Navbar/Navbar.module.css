@@ -1,13 +1,14 @@
 .navHero {
     width: 100%;
-    height: 100vh;
+    max-height: 100vh;
+    min-height: calc(100vh - .25em);
     /* overflow: hidden; */
     position: relative;
-    border: 1px solid rgb(208, 255, 0);
     background-image: url(../../wave.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: var(--lightBlue);
+    background-position: center;
 
 }
 .navbar {
@@ -18,8 +19,19 @@
 
 }
 
+.navbar .navbarItems ul{
+    margin: 1em;
+}
+
 .navbar .navbarItems li {
     display: inline-block;
     padding: .5rem;
     font-size: 1rem;
+    text-decoration: none;
+    padding-bottom: .5em;
+    transition: all .3s ease-in-out;
+}
+.navbar .navbarItems li:hover {
+    border-bottom: 2px solid var(--black);
+    cursor: pointer;
 }

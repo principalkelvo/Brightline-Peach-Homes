@@ -1,5 +1,6 @@
 import NavbarCSS from "./Navbar.module.css";
 import React from "react";
+import Hero from "./Hero";
 
 function Navbar() {
   return (
@@ -22,6 +23,8 @@ function Navbar() {
           </ul>
         </div>
       </div>
+      <hr />
+      <Hero />
     </nav>
   );
 }
