@@ -1,0 +1,103 @@
+.card {
+    position: relative;
+    margin: 1.5em;
+    background: var(--lightBlue);
+    border-radius: .625rem;
+    text-align: left;
+    padding: .8em;
+    width: 22.25rem;
+}
+
+.card .image{
+    height: 10em;
+    border-radius: .625rem;
+    /* box-shadow: 0 15px 50px rgba(0, 0, 0, 0.35); */
+    overflow: hidden;
+    position: relative;
+    margin: 0 0 .5em;
+    
+}
+
+.card .image img,
+.card .owner .profileImage img
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+.card .image .price{
+    position: absolute;
+    bottom: .625rem;
+    left: .625rem;
+    font-weight: 700;
+    font-size: .9em;
+    color: #fff;
+}
+.card .image .price span{
+    font-size: .9rem;
+}
+.card .image .type{
+    position: absolute;
+    top: .625rem;
+    left: .625rem;
+    font-weight: 700;
+    border: 1px solid red;
+    border-radius: .625rem;
+    padding: .3125rem .625rem;
+    background-color: red;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.card .title{
+    padding: .5em 0 0 0;
+    font-size: 1.1em;
+}
+.card .companyDetails .companyLocation{
+    font-size: .7em;
+    color: #5A5A5A;
+}
+.card .companyDetails .companyCategory{
+    color: #ff0000;
+}
+.card .details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5em 0;
+    color: #5A5A5A;
+}
+
+.card .details p{
+    white-space: nowrap;
+    font-size: .8em;
+}
+
+.card .owner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #5A5A5A;
+    padding: .2em 0;
+}
+.card .ownerDetails{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .2em 0;
+    font-size: .7em;
+
+}
+
+.card .owner .profileImage{
+    height: 3rem;
+    width: 3rem;
+    position: relative;
+    border-radius: 50%;
+    
+}
+.card .owner .dateRange{
+    font-size: .7em;
+}
