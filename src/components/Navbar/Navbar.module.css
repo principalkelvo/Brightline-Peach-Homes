@@ -1,24 +1,25 @@
 .navHero {
     width: 100%;
-    max-height: 100vh;
-    min-height: calc(100vh - 3.25rem);
+    height: 100vh;
+    /* overflow: hidden; */
+    position: relative;
+    border: 1px solid rgb(208, 255, 0);
+    background-image: url(../../wave.svg);
+    background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden;
-}
+    background-color: var(--lightBlue);
 
+}
 .navbar {
     min-width: 3.25rem;
     display: flex;
-    justify-content: right;
+    justify-content: space-between;
     align-items: center;
 
 }
 
-.navbar .navbarItems {
-    margin: 1em;
-}
-
 .navbar .navbarItems li {
     display: inline-block;
-    padding: 1em;
+    padding: .5rem;
+    font-size: 1rem;
 }
