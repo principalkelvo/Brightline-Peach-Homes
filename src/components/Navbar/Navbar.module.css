@@ -1,0 +1,24 @@
+.navHero {
+    width: 100%;
+    max-height: 100vh;
+    min-height: calc(100vh - 3.25rem);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.navbar {
+    min-width: 3.25rem;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+}
+
+.navbar .navbarItems {
+    margin: 1em;
+}
+
+.navbar .navbarItems li {
+    display: inline-block;
+    padding: 1em;
+}
