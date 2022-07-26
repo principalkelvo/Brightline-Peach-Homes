@@ -62,7 +62,7 @@ section {
 .columns .column.is-6 {
   width: 50%;
 }
-.columns .column.is-4 {
+.column.is-4 {
   width: 25.4%;
 }
 .text-left {
