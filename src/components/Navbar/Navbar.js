@@ -11,17 +11,17 @@ function Navbar() {
         <div className={NavbarCSS.navbarItems}>
           <ul>
             <li>
-              <NavLink to="/buying" exact className={NavbarCSS.linkStyles}>
+              <NavLink to="/buying" className={NavbarCSS.linkStyles}>
                 Buying
               </NavLink>
             </li>
             <li>
-              <NavLink to="/selling" exact className={NavbarCSS.linkStyles}>
+              <NavLink to="/selling" className={NavbarCSS.linkStyles}>
                 Selling
               </NavLink>
             </li>
             <li>
-              <NavLink to="/renting" exact className={NavbarCSS.linkStyles}>
+              <NavLink to="/renting" className={NavbarCSS.linkStyles}>
                 Renting
               </NavLink>
             </li>
@@ -33,17 +33,17 @@ function Navbar() {
         <div className={NavbarCSS.navbarItems}>
           <ul>
             <li>
-              <NavLink to="/about" exact className={NavbarCSS.linkStyles}>
+              <NavLink to="/about" className={NavbarCSS.linkStyles}>
                 About
               </NavLink>
             </li>
             <li>
-              <NavLink to="/resources" exact className={NavbarCSS.linkStyles}>
+              <NavLink to="/resources" className={NavbarCSS.linkStyles}>
                 Resources
               </NavLink>
             </li>
             <li>
-              <NavLink to="/contact" exact className={NavbarCSS.linkStyles}>
+              <NavLink to="/contact" className={NavbarCSS.linkStyles}>
                 Contact
               </NavLink>
             </li>

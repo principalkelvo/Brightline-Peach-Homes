@@ -8,13 +8,12 @@ import Products from "./components/products/Products";
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Navbar  />
       <Routes>
-        <Route exact path="/Buying" element={<Products />} />
-        <Route exact path="/Selling" element={<Products />} />
-        <Route exact path="/Renting" element={<Products />} />
+        <Route exact path="/buying" element={<Products />} />
+        <Route exact path="/selling" element={<Products />} />
+        <Route exact path="/renting" element={<Products />} />
       </Routes>
-        <Products />
     </div>
   );
 }
