@@ -1,6 +1,6 @@
 import NavbarCSS from "./Navbar.module.css";
 import React from "react";
-import Hero from "./Hero";
+import Hero from "../home/Hero";
 
 function Navbar() {
   return (

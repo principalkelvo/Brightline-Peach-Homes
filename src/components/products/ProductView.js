@@ -28,9 +28,15 @@ function ProductView(props) {
         </div>
       </div>
       <div className="columns">
-        <div className="column is-3">hello</div>
-        <div className="column is-3">hello</div>
-        <div className="column is-3">hello</div>
+        <div className="column is-3">
+          <h5>Description</h5>
+        </div>
+        <div className="column is-3">
+          <h5>Contact Us</h5>
+        </div>
+        <div className="column is-3">
+          <h5>More Details</h5>
+        </div>
       </div>
     </section>
   );
