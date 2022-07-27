@@ -1,0 +1,60 @@
+.productImage {
+    width: 100%;
+    height: 15em;
+    border: 1px solid red;
+    position: relative;
+    border-radius: .625rem;
+  }
+
+  .productImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: .625rem;
+
+  }
+
+  .productVariants{
+    width: 100%;
+    border-radius: .625rem;
+    margin: 1em 0;
+  }
+
+  .productVariants .variant{
+    height: 4em;
+    width: 18%;
+    min-width: 4em;
+    border-radius: .625rem;
+    margin: 1em 0;
+    border: 1px solid green;
+  }
+
+  .button{
+    width: 100%;
+    padding: 0 0 1em;
+  }
+
+  .button button{
+    width: 68%;
+    padding: 1em 2em;
+    font-size: 1em;
+    border-radius: 1.25rem;
+    white-space: nowrap;
+    text-align: center;
+
+  }
+
+  .details{
+    width: 70%;
+    margin: 0 auto;
+    height: 10.7em;
+    padding: 2em;
+    border: 1px solid blue;
+    border-radius: .625rem;
+
+  }
+
+  .details ul li{
+    list-style: none;
+    text-align: left;
+  }

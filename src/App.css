@@ -59,12 +59,25 @@ section {
   /* border: 1px solid black; */
 }
 
-.columns .column.is-6 {
-  width: 50%;
+.column.is-3 {
+  width: 33.4%;
 }
 .column.is-4 {
   width: 25.4%;
 }
+.column.is-5 {
+  width: 41.7%;
+}
+.columns .column.is-6 {
+  width: 50%;
+}
+.column.is-7 {
+  width: 58.3%;
+}
+.columns .column.is-8 {
+  width: 66.7%;
+}
+
 .text-left {
   text-align: left;
 }

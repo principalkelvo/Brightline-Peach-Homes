@@ -4,6 +4,7 @@ import React from "react";
 
 function ProductCard() {
   return (
+    <div className="columns is-multiline">
     <div className="column is-4">
       <div className={ProductCardCSS.card}>
         <div className={ProductCardCSS.image}>
@@ -49,6 +50,7 @@ function ProductCard() {
           <div className={ProductCardCSS.dateRange}>4 days ago</div>
         </div>
       </div>
+    </div>
     </div>
   );
 }
