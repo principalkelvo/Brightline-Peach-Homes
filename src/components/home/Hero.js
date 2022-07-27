@@ -1,7 +1,7 @@
 import HeroCSS from "./Hero.module.css";
 
 import React from "react";
-import SearchBar from "./SearchBar"
+import SearchBar from "../Navbar/SearchBar"
 import image from "../../logo.svg"
 
 function Hero() {
