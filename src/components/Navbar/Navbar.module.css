@@ -29,9 +29,17 @@
   padding-bottom: 0.5em;
   transition: all 0.3s ease-in-out;
 }
-.navbar .navbarItems li:hover {
-  border-bottom: 2px solid var(--black);
+.navbar .navbarItems li:hover{
+  border-bottom: 1px solid red;
   cursor: pointer;
+  
+}
+.linkStyles{
+  color: black;
+  text-decoration:none;
+}
+.navbar .navbarItems li:hover .linkStyles{
+  color: red;
 }
 
 .navbarItems.logo {
