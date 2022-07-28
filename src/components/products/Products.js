@@ -2,6 +2,7 @@
 import React from "react";
 import ProductCard from "./ProductCard";
 function Products() {
+  console.log("estates");
   return (
     <section>
       <h1>FOR SALE</h1>
