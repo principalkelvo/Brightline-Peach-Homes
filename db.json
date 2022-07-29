@@ -40,6 +40,129 @@
                 "4":"https://unsplash.com/photos/CX6-_wXxOsY"
             }
 
+        },
+        {
+            "id": 2,
+            "title":"moshi villa",
+            "category":"villa",
+            "image":"https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg",
+            "forSale":true,
+            "price":{
+                "rent":2000,
+                "sale":50000
+        },
+        "location":{
+            "country":"Kenya",
+            "city":"Nairobi",
+            "street":"Korogocho"
+        },
+            "owner":{
+                "firstName":"principal",
+                "lastName":"kelvin",
+                "profilePic":"https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014276/chatbot-imoveis/casa-costa-silva.jpg"
+                
+            },
+            "description":"get your dream home today",
+            "contacts":{
+                "phoneNumber":"+254712345678",
+                "email":"johndoe@gmail.com"
+            },
+            "date":{
+                "added":"2/4/2022",
+                "range":2
+            },
+            "size":3500,
+            "featured":true,
+            "rating":3,
+            "variants":{
+                "1":"https://unsplash.com/photos/eygR_ULXxb8",
+                "2":"https://unsplash.com/photos/U74CPDcq5OY",
+                "3":"https://unsplash.com/photos/XKIO6ZgCObo",
+                "4":"https://unsplash.com/photos/CX6-_wXxOsY"
+            }
+
+        },
+        {
+            "id": 3,
+            "title":"moshi villa",
+            "category":"villa",
+            "image":"https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg",
+            "forSale":true,
+            "price":{
+                "rent":2000,
+                "sale":50000
+        },
+        "location":{
+            "country":"Kenya",
+            "city":"Nairobi",
+            "street":"Korogocho"
+        },
+            "owner":{
+                "firstName":"principal",
+                "lastName":"kelvin",
+                "profilePic":"https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014276/chatbot-imoveis/casa-costa-silva.jpg"
+                
+            },
+            "description":"get your dream home today",
+            "contacts":{
+                "phoneNumber":"+254712345678",
+                "email":"johndoe@gmail.com"
+            },
+            "date":{
+                "added":"2/4/2022",
+                "range":2
+            },
+            "size":3500,
+            "featured":true,
+            "rating":3,
+            "variants":{
+                "1":"https://unsplash.com/photos/eygR_ULXxb8",
+                "2":"https://unsplash.com/photos/U74CPDcq5OY",
+                "3":"https://unsplash.com/photos/XKIO6ZgCObo",
+                "4":"https://unsplash.com/photos/CX6-_wXxOsY"
+            }
+
+        },
+        {
+            "id": 3,
+            "title":"moshi villa",
+            "category":"villa",
+            "image":"https://unsplash.com/photos/CX6-_wXxOsY",
+            "forSale":true,
+            "price":{
+                "rent":2000,
+                "sale":50000
+        },
+        "location":{
+            "country":"Kenya",
+            "city":"Nairobi",
+            "street":"Korogocho"
+        },
+            "owner":{
+                "firstName":"principal",
+                "lastName":"kelvin",
+                "profilePic":"https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014276/chatbot-imoveis/casa-costa-silva.jpg"
+                
+            },
+            "description":"get your dream home today",
+            "contacts":{
+                "phoneNumber":"+254712345678",
+                "email":"johndoe@gmail.com"
+            },
+            "date":{
+                "added":"2/4/2022",
+                "range":2
+            },
+            "size":3500,
+            "featured":true,
+            "rating":3,
+            "variants":{
+                "1":"https://unsplash.com/photos/eygR_ULXxb8",
+                "2":"https://unsplash.com/photos/U74CPDcq5OY",
+                "3":"https://unsplash.com/photos/XKIO6ZgCObo",
+                "4":"https://unsplash.com/photos/CX6-_wXxOsY"
+            }
+
         }
     ]
 }
