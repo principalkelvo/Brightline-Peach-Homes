@@ -1,11 +1,12 @@
 import NavbarCSS from "./Navbar.module.css";
 import React from "react";
-import Hero from "../home/Hero";
+// import Hero from "../home/Hero";
 import { NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className={NavbarCSS.navHero}>
+    <>
+    {/* <nav className={NavbarCSS.navHero}> */}
       {/* navbar  */}
       <div className={NavbarCSS.navbar}>
         <div className={NavbarCSS.navbarItems}>
@@ -33,13 +34,13 @@ function Navbar() {
         <div className={NavbarCSS.navbarItems}>
           <ul>
             <li>
-              <NavLink to="/about" className={NavbarCSS.linkStyles}>
-                About
+              <NavLink to="/" className={NavbarCSS.linkStyles}>
+                Home
               </NavLink>
             </li>
             <li>
-              <NavLink to="/resources" className={NavbarCSS.linkStyles}>
-                Resources
+              <NavLink to="/about" className={NavbarCSS.linkStyles}>
+              About
               </NavLink>
             </li>
             <li>
@@ -51,8 +52,9 @@ function Navbar() {
         </div>
       </div>
       <hr />
-      <Hero />
-    </nav>
+      {/* <Hero /> */}
+    {/* </nav> */}
+    </>
   );
 }
 

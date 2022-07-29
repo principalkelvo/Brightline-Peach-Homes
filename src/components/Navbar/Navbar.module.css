@@ -1,20 +1,21 @@
-.navHero {
+/* .navHero {
   width: 100%;
   max-height: 100vh;
   min-height: calc(100vh - 0.25em);
-  /* overflow: hidden; */
+  overflow: hidden;
   position: relative;
   background-image: url(../../wave.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: var(--lightBlue);
   background-position: center;
-}
+} */
 .navbar {
   min-width: 3.25rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: var(--lightBlue);
 }
 
 .navbar .navbarItems ul {

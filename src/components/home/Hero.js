@@ -6,6 +6,7 @@ import image from "../../logo.svg"
 
 function Hero() {
   return (
+     <nav className={HeroCSS.navHero}>
     <header className={HeroCSS.section + " " + HeroCSS.hero}>
       <div className="columns">
         <div className="column is-6 text-left" >
@@ -21,6 +22,7 @@ function Hero() {
         </div>
       </div>
     </header>
+    </nav>
   );
 }
 export default Hero;

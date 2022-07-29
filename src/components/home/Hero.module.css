@@ -33,3 +33,15 @@
   height: 100%;
   object-fit: cover;
 }
+.navHero {
+  width: 100%;
+  max-height: 100vh;
+  min-height: calc(100vh - 0.25em);
+  /* overflow: hidden; */
+  position: relative;
+  background-image: url(../../wave.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--lightBlue);
+  background-position: center;
+}
