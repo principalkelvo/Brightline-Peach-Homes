@@ -45,8 +45,8 @@ section {
 
 .columns {
   width: 100%;
-  margin: 0 1em;
-  padding: 0 2em;
+  /* margin: 0 1em; */
+  /* padding: 0 2em; */
   display: flex;
 }
 .columns.is-multiline {
