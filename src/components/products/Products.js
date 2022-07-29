@@ -1,12 +1,12 @@
 // import ProductsCSS from './Products.module.css'
 import React from "react";
 import ProductCard from "./ProductCard";
-function Products() {
+function Products({estates}) {
   console.log("estates");
   return (
     <section>
       <h1>FOR SALE</h1>
-      <ProductCard />
+      <ProductCard estates={estates}/>
     </section>
   );
 }
