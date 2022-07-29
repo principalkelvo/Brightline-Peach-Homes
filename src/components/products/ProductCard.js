@@ -2,13 +2,17 @@ import ProductCardCSS from "./ProductCard.module.css";
 import image from "../../logo.svg";
 import React from "react";
 
-function ProductCard() {
+function ProductCard({estates}) {
+  console.log(estates);
+  const estatesCard = estates.map((estate)=>(
+    console.log(estate.id)))
   return (
     <div className="columns is-multiline">
+      {estatesCard}
     <div className="column is-4">
       <div className={ProductCardCSS.card}>
         <div className={ProductCardCSS.image}>
-          <div className={ProductCardCSS.type}>For Rent</div>
+          <div className={ProductCardCSS.type}>estatesCard.id</div>
           <div className={ProductCardCSS.price}><p>Ksh 3,100<span>/mo</span></p></div>
           <img src={image} alt="ProductName" />
         </div>
