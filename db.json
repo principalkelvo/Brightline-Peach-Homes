@@ -5,7 +5,7 @@
             "title":"moshi villa",
             "category":"villa",
             "image":"https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg",
-            "for":"sale",
+            "forSale":true,
             "price":{
                 "rent":2000,
                 "sale":50000
