@@ -154,7 +154,7 @@
                 "range":2
             },
             "size":3500,
-            "featured":true,
+            "featured":false,
             "rating":3,
             "variants":{
                 "1":"https://unsplash.com/photos/eygR_ULXxb8",
