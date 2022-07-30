@@ -1,12 +1,21 @@
 // import ProductsCSS from './Products.module.css'
-import React from "react";
+import React, { useEffect } from "react";
 import ProductCard from "./ProductCard";
-function Products({estates}) {
+function Products({ estates, setFiltered, activeFilter, setactiveFilter,data }) {
   console.log("estates");
+  // useEffect(() => {
+  //   setactiveFilter(true);
+  // },[])
+ 
   return (
     <section>
-      <h1>FOR SALE</h1>
-      <ProductCard estates={estates}/>
+      <ProductCard
+      estates={estates}
+      data={data}
+        setFiltered={setFiltered}
+        activeFilter={activeFilter}
+        setactiveFilter={setactiveFilter}
+      />
     </section>
   );
 }

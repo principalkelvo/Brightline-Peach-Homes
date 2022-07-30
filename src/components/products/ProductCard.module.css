@@ -7,8 +7,12 @@
     padding: .8em;
     width: 20.25rem;
     /* width: ; */
+    transition: all .3s ease-in-out
 }
+.card:hover{
+    box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.253);
 
+}
 .card .image{
     height: 8em;
     border-radius: .625rem;
@@ -23,6 +27,10 @@
      height: 100%;
     width: 100%;
     object-fit: cover;
+    transition: all .5s ease-in-out;
+}
+.card .image img:hover{
+    transform:scale(1.2);
 }
 .card .owner .profileImage img
 {
@@ -39,6 +47,7 @@
     font-weight: 700;
     font-size: .9em;
     color: #fff;
+    z-index: 1;
 }
 .card .image .price span{
     font-size: .9rem;
@@ -54,6 +63,10 @@
     font-size: 1rem;
     color: #fff;
     z-index: 1;
+}
+.card .image .rentType{
+    background-color: #FFE9C2;
+    color: #000000;
 }
 
 .card .title{
@@ -114,3 +127,9 @@
 .card .owner .dateRange{
     font-size: .7em;
 }
+.link{
+    text-decoration:none;
+}
+/* .fullCard:hover{
+    box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.253);
+} */

@@ -3,17 +3,18 @@ import ProductCardCSS from "./ProductCard.module.css";
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
-function ProductCard({ estates, setFiltered, activeFilter, data }) {
-  useEffect(() => {
-    if (activeFilter === true) {
-      setFiltered(data);
-      return;
-    }
-    const featured = estates.filter((estate) => estate.featured === true);
-    setFiltered(featured);
-    console.log("featured", featured);
-  }, [activeFilter]);
+function ProductCard({ estates, activeFilter }) {
+  // useEffect(() => {
+  //   if (activeFilter === true) {
+  //     setFiltered(data);
+  //     return;
+  //   }
+  //   const featured = estates.filter((estate) => estate.featured === activeFilter);
+  //   setFiltered(featured);
+  //   console.log("featured", featured);
+  // }, []);
 
+  console.log("activeFilter", activeFilter);
   const estatesCard = estates.map((estate) => (
     <div className={ProductCardCSS.fullCard} key={estate.id}>
       <Link className={ProductCardCSS.link} to={`/product/${estate.id}`}>
