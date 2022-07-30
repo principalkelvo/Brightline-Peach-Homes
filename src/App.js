@@ -10,7 +10,7 @@ import ProductView from "./components/products/ProductView";
 function App() {
   const [data, setData] = useState([]);
   const [filtered, setFiltered] = useState([]);
-  const [activeFilter, setactiveFilter] = useState(false);
+  const [activeFilter, setactiveFilter] = useState(true);
 
   const fetchHomes = () => {
     fetch("http://localhost:4000/homes")
@@ -25,14 +25,29 @@ function App() {
     fetchHomes();
   }, []);
 
+  useEffect(() => {
+    if (activeFilter === true) {
+      setFiltered(data);
+      return;
+    }
+    const featured = data.filter((estate) => estate.featured === activeFilter);
+    setFiltered(featured);
+    console.log("featured", featured);
+  }, [activeFilter, data]);
+
   console.log("homes", data);
   console.log("filtered", filtered);
+  console.log("activeFilter", activeFilter);
 
   return (
     <div className="App">
-      <Navbar />
+      <Navbar setactiveFilter={setactiveFilter}/>
       <Routes>
-        <Route exact path="/" element={<Hero estates={filtered} />} />
+        <Route exact path="/" element={<Hero data={data}
+              estates={filtered}
+              setFiltered={setFiltered}
+              activeFilter={activeFilter}
+              setactiveFilter={setactiveFilter} />} />
         <Route
           exact
           path="/buying"
