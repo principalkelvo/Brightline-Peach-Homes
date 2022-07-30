@@ -1,6 +1,6 @@
 import ProductCardCSS from "./ProductCard.module.css";
 // import image from "../../logo.svg";
-import React, { useEffect } from "react";
+// import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 function ProductCard({ estates, activeFilter }) {
