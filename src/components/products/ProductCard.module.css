@@ -1,134 +1,129 @@
 .card {
-    position: relative;
-    margin: .5em;
-    background: var(--lightBlue);
-    border-radius: .625rem;
-    text-align: left;
-    padding: .8em;
-    width: 20.25rem;
-    /* width: ; */
-    transition: all .3s ease-in-out
+  position: relative;
+  margin: 0.5em;
+  background: var(--lightBlue);
+  border-radius: 0.625rem;
+  text-align: left;
+  padding: 0.8em;
+  width: 20.25rem;
+  /* width: ; */
+  transition: all 0.3s ease-in-out;
 }
-.card:hover{
-    box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.253);
-
+.card:hover {
+  box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253);
 }
-.card .image{
-    height: 8em;
-    border-radius: .625rem;
-    /* box-shadow: 0 15px 50px rgba(0, 0, 0, 0.35); */
-    overflow: hidden;
-    position: relative;
-    margin: 0 0 .5em;
-    
+.card .image {
+  height: 8em;
+  border-radius: 0.625rem;
+  /* box-shadow: 0 15px 50px rgba(0, 0, 0, 0.35); */
+  overflow: hidden;
+  position: relative;
+  margin: 0 0 0.5em;
 }
 
-.card .image img{
-     height: 100%;
-    width: 100%;
-    object-fit: cover;
-    transition: all .5s ease-in-out;
+.card .image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.5s ease-in-out;
 }
-.card .image img:hover{
-    transform:scale(1.2);
+.card .image img:hover {
+  transform: scale(1.2);
 }
-.card .owner .profileImage img
-{
-    border-radius: 50%;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-
-.card .image .price{
-    position: absolute;
-    bottom: .625rem;
-    left: .625rem;
-    font-weight: 700;
-    font-size: .9em;
-    color: #fff;
-    z-index: 1;
-}
-.card .image .price span{
-    font-size: .9rem;
-}
-.card .image .type{
-    position: absolute;
-    top: .625rem;
-    left: .625rem;
-    font-weight: 700;
-    border-radius: .625rem;
-    padding: .3125rem .625rem;
-    background-color: red;
-    font-size: 1rem;
-    color: #fff;
-    z-index: 1;
-}
-.card .image .rentType{
-    background-color: #FFE9C2;
-    color: #000000;
+.card .owner .profileImage img {
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
-.card .title{
-    padding: .5em 0 0 0;
-    font-size: 1.1em;
-    text-transform: capitalize;
+.card .image .price {
+  position: absolute;
+  bottom: 0.625rem;
+  left: 0.625rem;
+  font-weight: 700;
+  font-size: 0.9em;
+  color: #fff;
+  z-index: 1;
 }
-.card .companyDetails .companyLocation{
-    font-size: .7em;
-    color: #5A5A5A;
+.card .image .price span {
+  font-size: 0.9rem;
 }
-.card .companyDetails .companyCategory{
-    color: #ff0000;
-    text-transform: capitalize;
-    letter-spacing: .105rem;
+.card .image .type {
+  position: absolute;
+  top: 0.625rem;
+  left: 0.625rem;
+  font-weight: 700;
+  border-radius: 0.625rem;
+  padding: 0.3125rem 0.625rem;
+  background-color: red;
+  font-size: 1rem;
+  color: #fff;
+  z-index: 1;
 }
-.card .details{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: .5em 0;
-    color: #5A5A5A;
-}
-
-.card .details p{
-    white-space: nowrap;
-    font-size: .8em;
-}
-
-.card .owner{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: #5A5A5A;
-    padding: .2em 0;
-}
-.card .ownerDetails{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: .2em 0;
-    font-size: .7em;
-
+.card .image .rentType {
+  background-color: #ffe9c2;
+  color: #000000;
 }
 
-.card .owner .profileImage{
-    height: 3rem;
-    width: 3rem;
-    border-radius: 50%;
-    position: relative;
-    
+.card .title {
+  padding: 0.5em 0 0 0;
+  font-size: 1.1em;
+  text-transform: capitalize;
+}
+.card .companyDetails .companyLocation {
+  font-size: 0.7em;
+  color: #5a5a5a;
+}
+.card .companyDetails .companyCategory {
+  color: #ff0000;
+  text-transform: capitalize;
+  letter-spacing: 0.105rem;
+}
+.card .details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em 0;
+  color: #5a5a5a;
 }
 
-.card .owner .name{
-    margin: 0 0.25rem;
-    text-transform: capitalize;
+.card .details p {
+  white-space: nowrap;
+  font-size: 0.8em;
 }
-.card .owner .dateRange{
-    font-size: .7em;
+
+.card .owner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #5a5a5a;
+  padding: 0.2em 0;
 }
-.link{
-    text-decoration:none;
+.card .ownerDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.2em 0;
+  font-size: 0.7em;
+}
+
+.card .owner .profileImage {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  position: relative;
+}
+
+.card .owner .name {
+  margin: 0 0.25rem;
+  text-transform: capitalize;
+}
+.card .owner .dateRange {
+  font-size: 0.7em;
+}
+.link {
+  text-decoration: none;
 }
 /* .fullCard:hover{
     box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.253);

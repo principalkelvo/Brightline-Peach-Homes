@@ -3,7 +3,7 @@ import React from "react";
 // import Hero from "../home/Hero";
 import { NavLink } from "react-router-dom";
 
-function Navbar({setactiveFilter}) {
+function Navbar({ setactiveFilter }) {
   return (
     <>
       {/* <nav className={NavbarCSS.navHero}> */}
