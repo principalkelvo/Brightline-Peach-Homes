@@ -1,13 +1,15 @@
 import HeroCSS from "./Hero.module.css";
 
-import React from "react";
+import React, { useEffect } from "react";
 import SearchBar from "../Navbar/SearchBar";
 import image from "../../logo.svg";
 import Products from "../products/Products";
 
-function Hero(estates) {
+function Hero({ estates, setFiltered, activeFilter, setactiveFilter,data}) {
  
-  
+  useEffect(() => {
+    setactiveFilter(false)
+  },[setactiveFilter]);
   return (
     <>
       <nav className={HeroCSS.navHero}>
@@ -29,7 +31,11 @@ function Hero(estates) {
       </nav>
       <section>
         <h1>Featured</h1>
-        {/* <Products estates={estates}/> */}
+        <Products estates={estates}
+      data={data}
+        setFiltered={setFiltered}
+        activeFilter={activeFilter}
+        setactiveFilter={setactiveFilter}/>
       </section>
     </>
   );

@@ -3,16 +3,20 @@ import React from "react";
 // import Hero from "../home/Hero";
 import { NavLink } from "react-router-dom";
 
-function Navbar() {
+function Navbar({setactiveFilter}) {
   return (
     <>
-    {/* <nav className={NavbarCSS.navHero}> */}
+      {/* <nav className={NavbarCSS.navHero}> */}
       {/* navbar  */}
       <div className={NavbarCSS.navbar}>
         <div className={NavbarCSS.navbarItems}>
           <ul>
             <li>
-              <NavLink to="/buying" className={NavbarCSS.linkStyles}>
+              <NavLink
+                to="/buying"
+                onClick={() => setactiveFilter(true)}
+                className={NavbarCSS.linkStyles}
+              >
                 Buying
               </NavLink>
             </li>
@@ -40,7 +44,7 @@ function Navbar() {
             </li>
             <li>
               <NavLink to="/about" className={NavbarCSS.linkStyles}>
-              About
+                About
               </NavLink>
             </li>
             <li>
@@ -53,7 +57,7 @@ function Navbar() {
       </div>
       <hr />
       {/* <Hero /> */}
-    {/* </nav> */}
+      {/* </nav> */}
     </>
   );
 }
