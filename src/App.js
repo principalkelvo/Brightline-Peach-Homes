@@ -6,6 +6,7 @@ import Hero from "./components/home/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import Products from "./components/products/Products";
 import ProductView from "./components/products/ProductView";
+import Form from "./components/Contact/Form";
 
 function App() {
   const [data, setData] = useState([]);
@@ -61,8 +62,8 @@ function App() {
             />
           }
         />
-        {/* <Route exact path="/selling" element={<Products />} />
-        <Route exact path="/renting" element={<Products />} />
+        <Route exact path="/selling" element={<Form />} />
+        {/* <Route exact path="/renting" element={<Products />} />
         <Route exact path="/about" element={<Products />} />
         <Route exact path="/contact" element={<Products />} /> */}
         <Route
