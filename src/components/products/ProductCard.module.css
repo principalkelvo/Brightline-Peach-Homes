@@ -5,9 +5,12 @@
   border-radius: 0.625rem;
   text-align: left;
   padding: 0.8em;
-  width: 20.25rem;
+  width: 18.2rem;
   /* width: ; */
   transition: all 0.3s ease-in-out;
+}
+.cardColor{
+  background: #CFDBEC;
 }
 .card:hover {
   box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253);
@@ -18,7 +21,7 @@
   /* box-shadow: 0 15px 50px rgba(0, 0, 0, 0.35); */
   overflow: hidden;
   position: relative;
-  margin: 0 0 0.5em;
+  margin: 0 0 0.5rem;
 }
 
 .card .image img {
@@ -66,13 +69,14 @@
   color: #000000;
 }
 
+
 .card .title {
-  padding: 0.5em 0 0 0;
-  font-size: 1.1em;
+  padding: 0.5rem 0 0 0;
+  font-size: 1.1rem;
   text-transform: capitalize;
 }
 .card .companyDetails .companyLocation {
-  font-size: 0.7em;
+  font-size: 0.7rem;
   color: #5a5a5a;
 }
 .card .companyDetails .companyCategory {
@@ -84,13 +88,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5em 0;
+  padding: 0.5rem 0;
   color: #5a5a5a;
 }
 
 .card .details p {
   white-space: nowrap;
-  font-size: 0.8em;
+  font-size: 0.8rem;
 }
 
 .card .owner {
@@ -98,14 +102,14 @@
   justify-content: space-between;
   align-items: center;
   color: #5a5a5a;
-  padding: 0.2em 0;
+  padding: 0.2rem 0;
 }
 .card .ownerDetails {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.2em 0;
-  font-size: 0.7em;
+  padding: 0.2rem 0;
+  font-size: 0.7rem;
 }
 
 .card .owner .profileImage {
@@ -120,10 +124,11 @@
   text-transform: capitalize;
 }
 .card .owner .dateRange {
-  font-size: 0.7em;
+  font-size: 0.7rem;
 }
 .link {
   text-decoration: none;
+  color: #000000;
 }
 /* .fullCard:hover{
     box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.253);

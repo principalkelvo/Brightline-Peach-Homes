@@ -98,3 +98,6 @@
 .desc .content {
   margin: auto;
 }
+.product{
+  background-color: var(--lightBlue);
+}

@@ -48,6 +48,7 @@ section {
   /* margin: 0 1em; */
   /* padding: 0 2em; */
   display: flex;
+  justify-content: center;
 }
 .columns.is-multiline {
   flex-wrap: wrap;
