@@ -26,7 +26,7 @@ function ProductView({ estates }) {
   //   ));
 
   return (
-    <section className={ProductViewCSS.product}>
+    <section className={ProductViewCSS.product} >
       {/* {mapEstate} */}
       {estates
         .filter((estate) => String(estate.id) === id) //change id to string for better comparison (type safe comparison)

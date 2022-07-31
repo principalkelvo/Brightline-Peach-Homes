@@ -1,6 +1,7 @@
 // import ProductsCSS from './Products.module.css'
 import React from "react";
 import ProductCard from "./ProductCard";
+import ProductCss from "./Products.module.css";
 function Products({
   estates,
   setFiltered,
@@ -14,7 +15,7 @@ function Products({
   // },[])
 
   return (
-    <section>
+    <section className={activeFilter?ProductCss.product: " "}>
       <ProductCard
         estates={estates}
         data={data}

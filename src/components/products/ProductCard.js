@@ -18,7 +18,13 @@ function ProductCard({ estates, activeFilter }) {
   const estatesCard = estates.map((estate) => (
     <div className={ProductCardCSS.fullCard} key={estate.id}>
       <Link className={ProductCardCSS.link} to={`/product/${estate.id}`}>
-        <div className={ProductCardCSS.card}>
+        <div
+          className={
+            activeFilter
+              ? ProductCardCSS.cardColor + " " + ProductCardCSS.card
+              : ProductCardCSS.card
+          }
+        >
           <div className={ProductCardCSS.image}>
             <div
               className={
