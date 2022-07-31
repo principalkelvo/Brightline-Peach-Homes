@@ -1,60 +1,100 @@
+.title {
+  text-transform: capitalize;
+  text-align: left;
+  margin: 0.5rem 0;
+}
 .productImage {
-    width: 100%;
-    height: 15em;
-    border: 1px solid red;
-    position: relative;
-    border-radius: .625rem;
-  }
+  width: 100%;
+  height: 15em;
+  position: relative;
+  border-radius: 0.625rem;
+  box-shadow: 5px 10px 20px 1px #00000041;
+}
 
-  .productImage img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: .625rem;
+.productImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.625rem;
+}
 
-  }
+.productVariants {
+  position: relative;
+  width: 100%;
+  border-radius: 0.625rem;
+  margin: 1em 0;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-evenly; */
+  flex-wrap: wrap;
+}
 
-  .productVariants{
-    width: 100%;
-    border-radius: .625rem;
-    margin: 1em 0;
-  }
+.productVariants .variant {
+  /* height: 4em;
+  min-width: 3em; */
+  width: 4em;
+  border-radius: 0.625rem;
+  margin: .3rem .5rem;
+  /* border: 1px solid green; */
+}
 
-  .productVariants .variant{
-    height: 4em;
-    width: 18%;
-    min-width: 4em;
-    border-radius: .625rem;
-    margin: 1em 0;
-    border: 1px solid green;
-  }
+.productVariants .variant img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: 5px 3px 20px 2px #00000041;
+  border-radius: 10px;
+}
 
-  .button{
-    width: 100%;
-    padding: 0 0 1em;
-  }
+.button {
+  width: 100%;
+  padding: 0 0 1em;
+}
 
-  .button button{
-    width: 68%;
-    padding: 1em 2em;
-    font-size: 1em;
-    border-radius: 1.25rem;
-    white-space: nowrap;
-    text-align: center;
+.button button {
+  outline: none;
+  border: none;
+  width: 68%;
+  padding: 1em 2em;
+  font-size: 1em;
+  border-radius: 1.25rem;
+  white-space: nowrap;
+  text-align: center;
+}
 
-  }
+.details {
+  width: 70%;
+  margin: 0 auto;
+  height: 10.7em;
+  padding: 1rem;
+  /* border: 1px solid blue; */
+  border-radius: 0.625rem;
+}
 
-  .details{
-    width: 70%;
-    margin: 0 auto;
-    height: 10.7em;
-    padding: 2em;
-    border: 1px solid blue;
-    border-radius: .625rem;
+.details ul li {
+  list-style: none;
+  text-align: left;
+  margin: 0 0 1rem;
+  letter-spacing: 0.12rem;
+}
+.desc {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  min-height: 6em;
+  border-right: 1px solid var(--lightBlue);
+  display: flex;
+  flex-direction: column;
+}
+.desc.noRightBorder {
+  border-right: none;
+}
 
-  }
+.desc p {
+  font-size: 1rem;
+  margin: 0.2rem;
+  text-align: left;
+}
 
-  .details ul li{
-    list-style: none;
-    text-align: left;
-  }
+.desc .content {
+  margin: auto;
+}
