@@ -2,6 +2,8 @@
 import React from "react";
 import ProductCard from "./ProductCard";
 import ProductCss from "./Products.module.css";
+import SearchBar from "../Navbar/SearchBar";
+
 function Products({
   estates,
   setFiltered,
@@ -15,7 +17,12 @@ function Products({
   // },[])
 
   return (
-    <section className={activeFilter?ProductCss.product: " "}>
+    <section className={activeFilter ? ProductCss.product : " "}>
+      {activeFilter ? (
+        <div className={ProductCss.productSearch}>
+          <SearchBar />{" "}
+        </div>
+      ) : null}
       <ProductCard
         estates={estates}
         data={data}

@@ -1,3 +1,7 @@
-.product{
-    background: var(--lightBlue);
+.product {
+  background: var(--lightBlue);
+  padding: 1em;
+}
+.productSearch {
+  text-align: left;
 }

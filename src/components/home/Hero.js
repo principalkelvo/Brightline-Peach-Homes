@@ -29,7 +29,7 @@ function Hero({ estates, setFiltered, activeFilter, setactiveFilter, data }) {
         </header>
       </nav>
       <section>
-        <h1>Featured</h1>
+        <h1>Featured Homes</h1>
         <Products
           estates={estates}
           data={data}
