@@ -1,9 +1,9 @@
-.input{
-    height: 3em;
-    width: 21em;
-    border-radius: 1.25rem;
-    padding: .525rem;
-    background-color: transparent;
-    border: 2px solid black;
-    margin: 2em 0;
+.input {
+  height: 3em;
+  width: 21em;
+  border-radius: 1.25rem;
+  padding: 0.525rem;
+  background-color: transparent;
+  border: 2px solid black;
+  margin: 2em 0;
 }
