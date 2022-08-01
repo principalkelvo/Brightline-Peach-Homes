@@ -15,11 +15,11 @@ Upload Files Page was created and is maintained by **Kelvin Njoro**
 
 ## Design
 
-### Full Preview
+### Hero Preview
 
 ![image](./src/home.png "Upload Files")
 
-### uploading Preview
+### Full Preview
 
 ![image](./src/Home.png "Uploading")
 For full design click [image](https://www.figma.com/file/HCkrbZAIlP0rbMW7dwBGc1/Brightline-Peach-Homes?node-id=3%3A2)
@@ -54,7 +54,7 @@ For full design click [image](https://www.figma.com/file/HCkrbZAIlP0rbMW7dwBGc1/
 
 > To view the website,
 
-* download or clone the repository [Here](https://github.com/principalkelvo/Brightline-Peach-Homes)**or**
+* download or clone the repository [Here](https://github.com/principalkelvo/Brightline-Peach-Homes) **or**
 * Copy the link <https://github.com/principalkelvo/Brightline-Peach-Homes>
 
 * run npm install
