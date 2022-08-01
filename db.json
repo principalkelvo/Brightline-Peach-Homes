@@ -1,208 +1,279 @@
 {
-    "homes":[
-        {
-            "id": 1,
-            "title":"moshi villa",
-            "category":"villa",
-            "image":"https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg",
-            "forSale":true,
-            "price":{
-                "rent":2000,
-                "sale":50000
-        },
-        "location":{
-            "country":"Kenya",
-            "city":"Nairobi",
-            "street":"Korogocho"
-        },
-            "owner":{
-                "firstName":"principal",
-                "lastName":"kelvin",
-                "profilePic":"https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014276/chatbot-imoveis/casa-costa-silva.jpg"
-                
-            },
-            "description":"get your dream home today",
-            "contacts":{
-                "phoneNumber":"+254712345678",
-                "email":"johndoe@gmail.com"
-            },
-            "date":{
-                "added":"2/4/2022",
-                "range":2
-            },
-            "size":3500,
-            "featured":true,
-            "rating":3,
-            "variants":[
-               "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg",
-                "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg",
-                "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg",
-                "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg",
-                "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg",
-                "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg"
-            ]
-
-        },
-        {
-            "id": 2,
-            "title":"moshi villa",
-            "category":"villa",
-            "image":"https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg",
-            "forSale":true,
-            "price":{
-                "rent":2000,
-                "sale":50000
-        },
-        "location":{
-            "country":"Kenya",
-            "city":"Nairobi",
-            "street":"Korogocho"
-        },
-            "owner":{
-                "firstName":"principal",
-                "lastName":"kelvin",
-                "profilePic":"https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014276/chatbot-imoveis/casa-costa-silva.jpg"
-                
-            },
-            "description":"get your dream home today",
-            "contacts":{
-                "phoneNumber":"+254712345678",
-                "email":"johndoe@gmail.com"
-            },
-            "date":{
-                "added":"2/4/2022",
-                "range":2
-            },
-            "size":3500,
-            "featured":true,
-            "rating":3,
-            "variants":[
-               "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg",
-                "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg",
-                "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg",
-                "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg"
-            ]
-
-        },
-        {
-            "id": 3,
-            "title":"moshi villa",
-            "category":"villa",
-            "image":"https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg",
-            "forSale":false,
-            "price":{
-                "rent":2000,
-                "sale":50000
-        },
-        "location":{
-            "country":"Kenya",
-            "city":"Nairobi",
-            "street":"Korogocho"
-        },
-            "owner":{
-                "firstName":"principal",
-                "lastName":"kelvin",
-                "profilePic":"https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014276/chatbot-imoveis/casa-costa-silva.jpg"
-                
-            },
-            "description":"get your dream home today",
-            "contacts":{
-                "phoneNumber":"+254712345678",
-                "email":"johndoe@gmail.com"
-            },
-            "date":{
-                "added":"2/4/2022",
-                "range":2
-            },
-            "size":3500,
-            "featured":true,
-            "rating":3,
-            "variants":[
-               "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg",
-                "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg",
-                "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg"
-            ]
-
-        },
-        {
-            "id": 4,
-            "title":"moshi villa",
-            "category":"villa",
-            "image":"https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014276/chatbot-imoveis/casa-costa-silva.jpg",
-            "forSale":true,
-            "price":{
-                "rent":2000,
-                "sale":50000
-        },
-        "location":{
-            "country":"Kenya",
-            "city":"Nairobi",
-            "street":"Korogocho"
-        },
-            "owner":{
-                "firstName":"principal",
-                "lastName":"kelvin",
-                "profilePic":"https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014276/chatbot-imoveis/casa-costa-silva.jpg"
-                
-            },
-            "description":"get your dream home today",
-            "contacts":{
-                "phoneNumber":"+254712345678",
-                "email":"johndoe@gmail.com"
-            },
-            "date":{
-                "added":"2/4/2022",
-                "range":2
-            },
-            "size":3500,
-            "featured":false,
-            "rating":3,
-            "variants":[
-               "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg",
-                "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg",
-                "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg"
-            ]
-
-        },
-        {
-            "id": 5,
-            "title":"moshi villa",
-            "category":"villa",
-            "image":"https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014276/chatbot-imoveis/casa-costa-silva.jpg",
-            "forSale":false,
-            "price":{
-                "rent":2000,
-                "sale":50000
-        },
-        "location":{
-            "country":"Kenya",
-            "city":"Nairobi",
-            "street":"Korogocho"
-        },
-            "owner":{
-                "firstName":"principal",
-                "lastName":"kelvin",
-                "profilePic":"https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014276/chatbot-imoveis/casa-costa-silva.jpg"
-                
-            },
-            "description":"get your dream home today",
-            "contacts":{
-                "phoneNumber":"+254712345678",
-                "email":"johndoe@gmail.com"
-            },
-            "date":{
-                "added":"2/4/2022",
-                "range":2
-            },
-            "size":3500,
-            "featured":false,
-            "rating":3,
-            "variants":[
-               "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg",
-                "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg",
-                "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg"
-            ]
-
-        }
-    ]
+  "homes": [
+    {
+      "id": 1,
+      "title": "moshi villa",
+      "category": "villa",
+      "image": "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg",
+      "forSale": true,
+      "price": {
+        "rent": 2000,
+        "sale": 50000
+      },
+      "location": {
+        "country": "Kenya",
+        "city": "Nairobi",
+        "street": "Korogocho"
+      },
+      "owner": {
+        "firstName": "principal",
+        "lastName": "kelvin",
+        "profilePic": "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014276/chatbot-imoveis/casa-costa-silva.jpg"
+      },
+      "description": "get your dream home today",
+      "contacts": {
+        "phoneNumber": "+254712345678",
+        "email": "johndoe@gmail.com"
+      },
+      "date": {
+        "added": "2/4/2022",
+        "range": 2
+      },
+      "size": 3500,
+      "featured": true,
+      "rating": 3,
+      "variants": [
+        "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg",
+        "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg",
+        "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg",
+        "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg",
+        "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg",
+        "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "moshi villa",
+      "category": "villa",
+      "image": "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg",
+      "forSale": true,
+      "price": {
+        "rent": 2000,
+        "sale": 50000
+      },
+      "location": {
+        "country": "Kenya",
+        "city": "Nairobi",
+        "street": "Korogocho"
+      },
+      "owner": {
+        "firstName": "principal",
+        "lastName": "kelvin",
+        "profilePic": "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014276/chatbot-imoveis/casa-costa-silva.jpg"
+      },
+      "description": "get your dream home today",
+      "contacts": {
+        "phoneNumber": "+254712345678",
+        "email": "johndoe@gmail.com"
+      },
+      "date": {
+        "added": "2/4/2022",
+        "range": 2
+      },
+      "size": 3500,
+      "featured": false,
+      "popular": true,
+      "rating": 3,
+      "variants": [
+        "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg",
+        "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg",
+        "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg",
+        "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "moshi villa",
+      "category": "villa",
+      "image": "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg",
+      "forSale": false,
+      "price": {
+        "rent": 2000,
+        "sale": 50000
+      },
+      "location": {
+        "country": "Kenya",
+        "city": "Nairobi",
+        "street": "Korogocho"
+      },
+      "owner": {
+        "firstName": "principal",
+        "lastName": "kelvin",
+        "profilePic": "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014276/chatbot-imoveis/casa-costa-silva.jpg"
+      },
+      "description": "get your dream home today",
+      "contacts": {
+        "phoneNumber": "+254712345678",
+        "email": "johndoe@gmail.com"
+      },
+      "date": {
+        "added": "2/4/2022",
+        "range": 2
+      },
+      "size": 3500,
+      "featured": false,
+      "rating": 3,
+      "variants": [
+        "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg",
+        "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg",
+        "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "moshi villa",
+      "category": "villa",
+      "image": "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014276/chatbot-imoveis/casa-costa-silva.jpg",
+      "forSale": true,
+      "price": {
+        "rent": 2000,
+        "sale": 50000
+      },
+      "location": {
+        "country": "Kenya",
+        "city": "Nairobi",
+        "street": "Korogocho"
+      },
+      "owner": {
+        "firstName": "principal",
+        "lastName": "kelvin",
+        "profilePic": "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014276/chatbot-imoveis/casa-costa-silva.jpg"
+      },
+      "description": "get your dream home today",
+      "contacts": {
+        "phoneNumber": "+254712345678",
+        "email": "johndoe@gmail.com"
+      },
+      "date": {
+        "added": "2/4/2022",
+        "range": 2
+      },
+      "size": 3500,
+      "featured": false,
+      "popular": true,
+      "rating": 3,
+      "variants": [
+        "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg",
+        "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg",
+        "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "moshi villa",
+      "category": "villa",
+      "image": "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014276/chatbot-imoveis/casa-costa-silva.jpg",
+      "forSale": false,
+      "price": {
+        "rent": 2000,
+        "sale": 50000
+      },
+      "location": {
+        "country": "Kenya",
+        "city": "Nairobi",
+        "street": "Korogocho"
+      },
+      "owner": {
+        "firstName": "principal",
+        "lastName": "kelvin",
+        "profilePic": "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014276/chatbot-imoveis/casa-costa-silva.jpg"
+      },
+      "description": "get your dream home today",
+      "contacts": {
+        "phoneNumber": "+254712345678",
+        "email": "johndoe@gmail.com"
+      },
+      "date": {
+        "added": "2/4/2022",
+        "range": 2
+      },
+      "size": 3500,
+      "featured": false,
+      "popular": true,
+      "rating": 3,
+      "variants": [
+        "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg",
+        "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg",
+        "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg"
+      ]
+    },
+    {
+      "title": "moshi villa",
+      "category": "villa",
+      "image": "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg",
+      "forSale": true,
+      "price": {
+        "rent": 2000,
+        "sale": 50000
+      },
+      "location": {
+        "country": "Kenya",
+        "city": "Nairobi",
+        "street": "Korogocho"
+      },
+      "owner": {
+        "firstName": "principal",
+        "lastName": "kelvin",
+        "profilePic": "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014276/chatbot-imoveis/casa-costa-silva.jpg"
+      },
+      "description": "get your dream home today",
+      "contacts": {
+        "phoneNumber": "+254712345678",
+        "email": "johndoe@gmail.com"
+      },
+      "date": {
+        "added": "2/4/2022",
+        "range": 2
+      },
+      "size": "sdcds",
+      "featured": true,
+      "rating": 0,
+      "variants": [
+        "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg",
+        "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg",
+        "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg",
+        "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg"
+      ],
+      "id": 6
+    },
+    {
+      "title": "moshi villa",
+      "category": "villa",
+      "image": "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg",
+      "forSale": false,
+      "price": {
+        "rent": 2000,
+        "sale": 50000
+      },
+      "location": {
+        "country": "Kenya",
+        "city": "Nairobi",
+        "street": "Korogocho"
+      },
+      "owner": {
+        "firstName": "principal",
+        "lastName": "kelvin",
+        "profilePic": "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014276/chatbot-imoveis/casa-costa-silva.jpg"
+      },
+      "description": "get your dream home today",
+      "contacts": {
+        "phoneNumber": "+254712345678",
+        "email": "johndoe@gmail.com"
+      },
+      "date": {
+        "added": "2/4/2022",
+        "range": 2
+      },
+      "size": "sfdsfds",
+      "featured": true,
+      "rating": 0,
+      "variants": [
+        "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg",
+        "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg",
+        "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg",
+        "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg"
+      ],
+      "id": 7
+    }
+  ]
 }
