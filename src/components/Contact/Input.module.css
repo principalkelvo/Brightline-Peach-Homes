@@ -1,0 +1,89 @@
+.input {
+  margin: 1.25rem 0 0;
+  padding: 0 1.875rem;
+  position: relative;
+}
+
+.input input {
+  font-size: 0.9375rem;
+  display: block;
+  width: 100%;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid red;
+  padding: 0.625rem 0.625rem;
+}
+
+.input input:focus {
+  outline: none;
+}
+
+.input label {
+  color: #999;
+  font-size: 0.9375rem;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 1.875rem;
+  top: 0.625rem;
+  transition: 0.2s ease all;
+}
+
+.input input:focus ~ label, .input input:valid ~ label  {
+  top: -0.5rem;
+  font-size: 0.75rem;
+  color: green;
+}
+
+.bar {
+  position: relative;
+  display: block;
+  padding: 0 1.875rem;
+}
+
+.bar::before,
+.bar::after {
+  content: "";
+  height: 2px;
+  width: 0;
+  bottom: 0.0625rem;
+  position: absolute;
+  background: blue;
+  transition: 0.2s ease all;
+}
+
+.bar::before {
+  left: 50%;
+}
+.bar::after {
+  right: 50%;
+}
+
+.input input:focus ~ .bar::before,
+.input input:focus ~ .bar::after {
+  width: 50%;
+}
+
+.highlight {
+  position: absolute;
+  height: 60%;
+  width: 4.375rem;
+  top: 25%;
+  left: 10%;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.input input:focus ~ .highlight {
+  animation: inputHighlight 0.3s ease;
+}
+
+@keyframes inputHighlight {
+  from {
+    background: red;
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
