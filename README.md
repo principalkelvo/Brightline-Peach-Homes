@@ -26,7 +26,7 @@ For full design click [image](https://www.figma.com/file/HCkrbZAIlP0rbMW7dwBGc1/
 
 ## Description
 
->> Data transmission over the internet has never been simpler, but sending sensitive information over email or a cloud service could be a mistake. There is always a danger that data could be intercepted, and in some circumstances, this could be disastrous. In many circumstances, it may be preferable to physically deliver data to a recipient using a secure storage mechanism, however this is frequently not feasible. The good news is that you can transmit files to other individuals using this anonymous file-sharing service without revealing any personal information about you or the recipient. This project is done by using HTML, CSS and JS only to create a cool Upload Files page. It is a fully developed light mode for all gadgets.
+>> The real estate sector is crucial to the economy of a country. It makes a major contribution to economic expansion. Additionally, it aids in the expansion of other industries. However, Kenya's real estate sector's performance is hampered by the low rate of ICT adoption and usage. The low percentage is demonstrated by the fact that some real estate companies lack websites, have bad track records, and communicate poorly with tenants. This project is done by using React JS  to create a cool Ui/UX. It uses jsonserver for the backend. It is a fully developed light mode for desktops.
 
 ### Contains
 
@@ -39,11 +39,11 @@ For full design click [image](https://www.figma.com/file/HCkrbZAIlP0rbMW7dwBGc1/
 
 ### Features
 
-* Static Html page - no fancy hosting needed (Github pages does it for free)
+* Static page - Hosted on heroku
 * Light source code - fast to load
 * Beautiful interface - compatible with all desktops and with a beautiful and pleasant interface.
 * Dark mode- still under construction
-* Responsive - compatible with all gadgets.
+<!-- * Responsive - compatible with all gadgets. -->
 
 ### Requirements
 
@@ -54,18 +54,25 @@ For full design click [image](https://www.figma.com/file/HCkrbZAIlP0rbMW7dwBGc1/
 
 > To view the website,
 
-* Click [Here](https://principalkelvo.github.io/anonymous-file-sharing/) **or**
-* Copy the link <https://principalkelvo.github.io/anonymous-file-sharing/> paste to your browser and load it
+* download or clone the repository [Here](https://github.com/principalkelvo/Brightline-Peach-Homes)**or**
+* Copy the link <https://github.com/principalkelvo/Brightline-Peach-Homes>
 
-> How to navigate
+* run npm install
+
+* run npm server
+
+* Click [Here](https://brightline-peach-homes.herokuapp.com/) **or**
+* Copy the link <https://brightline-peach-homes.herokuapp.com/> paste to your browser and load it
+
+<!-- > How to navigate
 
 * [Blog](https://medium.com/@principalkelvo/how-to-upload-and-share-files-anonymously-22b91ff8461d)
-* [Youtube](https://youtu.be/hzzf2KhRknc)
+* [Youtube](https://youtu.be/hzzf2KhRknc) -->
 
 ### Built with
 
-* HTML - which was used to develop the structure off the pages.
-* CSS - which was used to style the User Interface.
+* React JS - which was used to develop the structure and styling of the User Interface.
+* jsonserver - which was used as a database for the app.
 * JS - which was used to create a great interaction with the User Interface.
 
 ## Bugs and Issues
@@ -78,22 +85,20 @@ For full design click [image](https://www.figma.com/file/HCkrbZAIlP0rbMW7dwBGc1/
 
 ## Image Attribution
 
->Images owned by Kelvin Njoro
+>Images owned by Unsplash
 >Free for personal use with attribution
 
 ## Credits
 
 * [Google Fonts](https://fonts.google.com/) - Inter
-* [File.io API](https://file.io/)
+* [Unsplash](https://unsplash.com/)
 
 ## License
 
 > Use it freely but please do not republish, distribute or sell
 > Thats it! Simple, clean and smooth!
 
-
-
-# Getting Started with Create React App
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -162,4 +167,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
