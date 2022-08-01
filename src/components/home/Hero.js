@@ -5,7 +5,14 @@ import SearchBar from "../Navbar/SearchBar";
 import image from "../../logo.svg";
 import Products from "../products/Products";
 
-function Hero({ estates, setFiltered, activeFilter, setactiveFilter, data }) {
+function Hero({
+  estates,
+  setFiltered,
+  activeFilter,
+  setactiveFilter,
+  data,
+  popular,
+}) {
   useEffect(() => {
     setactiveFilter(false);
   }, [setactiveFilter]);
@@ -28,10 +35,20 @@ function Hero({ estates, setFiltered, activeFilter, setactiveFilter, data }) {
           </div>
         </header>
       </nav>
-      <section>
+      <section className={HeroCSS.section}>
         <h1>Featured Homes</h1>
+        <h6>Condos! affordable Condos! Bail jumpers welcome</h6>
         <Products
           estates={estates}
+          data={data}
+          setFiltered={setFiltered}
+          activeFilter={activeFilter}
+          setactiveFilter={setactiveFilter}
+        />
+        <h1>popular Homes</h1>
+        <h6>Helping people get their dream home</h6>
+        <Products
+          estates={popular}
           data={data}
           setFiltered={setFiltered}
           activeFilter={activeFilter}
