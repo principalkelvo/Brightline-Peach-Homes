@@ -2,10 +2,10 @@ import HeroCSS from "./Hero.module.css";
 
 import React, { useEffect } from "react";
 import SearchBar from "../Navbar/SearchBar";
-import image from "../../logo.svg";
 import Products from "../products/Products";
 
 function Hero({
+  setSearchResults,
   estates,
   setFiltered,
   activeFilter,
@@ -25,11 +25,14 @@ function Hero({
               <h1 className={HeroCSS.title}>
                 EVERYONE CAN OWN A HOUSE ONLY WITH BRIGHTLINE
               </h1>
-              <SearchBar />
+              <SearchBar setSearchResults={setSearchResults} data={data} />
             </div>
             <div className="column is-6">
               <div className={HeroCSS.image}>
-                <img alt="new" src={image}></img>
+                <img
+                  alt="new"
+                  src="https://images.unsplash.com/photo-1633119712778-30d94755de54?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                ></img>
               </div>
             </div>
           </div>

@@ -8,8 +8,9 @@ function Products({
   estates,
   // setFiltered,
   activeFilter,
+  setSearchResults,
   // setactiveFilter,
-  // data,
+  data,
 }) {
   console.log("estates");
   // useEffect(() => {
@@ -20,7 +21,7 @@ function Products({
     <section className={activeFilter ? ProductCss.product : " "}>
       {activeFilter ? (
         <div className={ProductCss.productSearch}>
-          <SearchBar />{" "}
+          <SearchBar setSearchResults={setSearchResults} data={data} />{" "}
         </div>
       ) : null}
       <ProductCard

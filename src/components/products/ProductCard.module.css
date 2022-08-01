@@ -1,3 +1,7 @@
+.fullCard{
+  width: 100%;
+  display: flex;
+}
 .card {
   position: relative;
   margin: 0.5em;

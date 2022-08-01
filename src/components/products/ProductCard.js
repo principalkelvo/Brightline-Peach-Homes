@@ -14,7 +14,7 @@ function ProductCard({ estates, activeFilter }) {
   //   console.log("featured", featured);
   // }, []);
   const estatesCard = estates.map((estate) => (
-    <div className={ProductCardCSS.fullCard} key={estate.id}>
+    <div  key={estate.id}>
       <Link className={ProductCardCSS.link} to={`/product/${estate.id}`}>
         <div
           className={
@@ -93,6 +93,7 @@ function ProductCard({ estates, activeFilter }) {
     </div>
   ));
   return (
+        <div className={ProductCardCSS.fullCard}>
     <div className="columns is-multiline">
       {estatesCard}
       {/* <div className="column is-4">
@@ -141,6 +142,7 @@ function ProductCard({ estates, activeFilter }) {
         </div>
       </div>
     </div> */}
+    </div>
     </div>
   );
 }
