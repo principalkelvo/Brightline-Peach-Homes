@@ -27,6 +27,7 @@
   left: 1.875rem;
   top: 0.625rem;
   transition: 0.2s ease all;
+  text-transform: capitalize;
 }
 
 .input input:focus ~ label, .input input:valid ~ label  {

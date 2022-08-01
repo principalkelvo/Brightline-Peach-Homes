@@ -1,0 +1,75 @@
+.formContainer {
+  background: var(--lightBlue);
+  padding: 1.15rem 0;
+  border-radius: 1.875rem;
+  width: 65%;
+  box-shadow: 0.625rem 0.625rem 0.3125rem 0 rgba(0, 0, 0, 0.75);
+  margin: 2.125rem auto;
+}
+
+.formContainer h3{
+    letter-spacing: .2rem;
+}
+
+.category{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* margin: 1em 0; */
+}
+
+
+
+.categoryRent,.categorySale{
+    text-transform: capitalize;
+    letter-spacing: .2rem;
+    border: 1px solid black;
+    width: 40%;
+    padding: .3em;
+    margin: .625rem;
+    color: red;
+    border-radius: 1.875rem;
+    cursor: pointer;
+
+}
+
+.activeCategory{
+    color: green;
+    background: #fff;
+    border: none;
+
+}
+
+.form .inputs {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+.form button {
+  font-size: 1.125rem;
+  margin-top: 2.5rem;
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  border-radius: 1.875rem;
+  color: white;
+  height: 2.5rem;
+  width: 8.25rem;
+  text-shadow: 0 0.0625rem 0 rgb(0 0 0 /40%);
+  background: radial-gradient(100% 100% at 100% 0%, #89e5ff 0%, #5468ff 100%);
+  transition: all 0.15s ease;
+}
+
+.form button:hover {
+  box-shadow: 0 0.1rem 0.2rem rgb(45, 35, 66/40%),
+    0 0.4rem 0.7125rem -0.1rem rgb(45, 35, 66/30%), inset 0 -0.1rem 0 #3c4fe0;
+
+  transform: translateY(-1.6px);
+}
