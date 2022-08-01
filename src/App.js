@@ -6,11 +6,13 @@ import Hero from "./components/home/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import Products from "./components/products/Products";
 import ProductView from "./components/products/ProductView";
+import SearchResults from "./components/Navbar/SearchResults";
 import Form from "./components/Contact/Form";
 
 function App() {
   // Initialize states for all components
   const [data, setData] = useState([]);
+  const [searchResults, setSearchResults] = useState([]);
   const [filtered, setFiltered] = useState([]);
   const [popular, setPopular] = useState([]);
   const [activeFilter, setactiveFilter] = useState(true);
@@ -19,7 +21,8 @@ function App() {
   const fetchHomes = () => {
     fetch("http://localhost:4000/homes")
       .then((r) => r.json())
-      .then((homes) => setData(homes));
+      .then((homes) => setData(homes))
+      .then((homes) => setSearchResults(homes));
   };
 
   //add useEffect to setData
@@ -66,6 +69,7 @@ function App() {
               popular={popular}
               activeFilter={activeFilter}
               setactiveFilter={setactiveFilter}
+              setSearchResults={setSearchResults}
             />
           }
         />
@@ -78,6 +82,7 @@ function App() {
               estates={filtered}
               // setFiltered={setFiltered}
               activeFilter={activeFilter}
+              setSearchResults={setSearchResults}
               // setactiveFilter={setactiveFilter}
             />
           }
@@ -90,6 +95,17 @@ function App() {
           exact
           path="/product/:id"
           element={<ProductView estates={data} />}
+        />
+        <Route
+          exact
+          path="/searchresults"
+          element={
+            <SearchResults
+              searchResults={searchResults}
+              data={data}
+              setSearchResults={setSearchResults}
+            />
+          }
         />
       </Routes>
     </div>
