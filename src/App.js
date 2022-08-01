@@ -12,6 +12,7 @@ function App() {
   // Initialize states for all components
   const [data, setData] = useState([]);
   const [filtered, setFiltered] = useState([]);
+  const [popular, setPopular] = useState([]);
   const [activeFilter, setactiveFilter] = useState(true);
 
   //get items from the server and update  the state accordingly
@@ -29,6 +30,7 @@ function App() {
   //set filtered to a copy of all the data
   useEffect(() => {
     setFiltered(data);
+    setPopular(data);
   }, [data]);
 
   //filter data with the featured ones
@@ -37,12 +39,17 @@ function App() {
       setFiltered(data);
       return;
     }
-    const featured = data.filter((estate) => estate.featured === activeFilter);
+    const featured = data.filter((estate) => estate.featured === true);
+    const popular = data.filter((estate) => estate.popular === true);
     setFiltered(featured);
+    setPopular(popular);
     console.log("featured", featured);
   }, [activeFilter, data]);
 
-
+  function onAddHome(newHome) {
+    setData([...data, newHome]);
+    console.log("new homes :", newHome);
+  }
 
   return (
     <div className="App">
@@ -56,6 +63,7 @@ function App() {
               data={data}
               estates={filtered}
               setFiltered={setFiltered}
+              popular={popular}
               activeFilter={activeFilter}
               setactiveFilter={setactiveFilter}
             />
@@ -68,21 +76,13 @@ function App() {
             <Products
               data={data}
               estates={filtered}
-              setFiltered={setFiltered}
+              // setFiltered={setFiltered}
               activeFilter={activeFilter}
-              setactiveFilter={setactiveFilter}
+              // setactiveFilter={setactiveFilter}
             />
           }
         />
-        <Route
-          exact
-          path="/selling"
-          element={
-            <Form
-              
-            />
-          }
-        />
+        <Route exact path="/selling" element={<Form onAddHome={onAddHome} />} />
         {/* <Route exact path="/renting" element={<Products />} />
         <Route exact path="/about" element={<Products />} />
         <Route exact path="/contact" element={<Products />} /> */}
