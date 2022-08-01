@@ -6,10 +6,10 @@ import SearchBar from "../Navbar/SearchBar";
 
 function Products({
   estates,
-  setFiltered,
+  // setFiltered,
   activeFilter,
-  setactiveFilter,
-  data,
+  // setactiveFilter,
+  // data,
 }) {
   console.log("estates");
   // useEffect(() => {
@@ -25,10 +25,10 @@ function Products({
       ) : null}
       <ProductCard
         estates={estates}
-        data={data}
-        setFiltered={setFiltered}
+        // data={data}
+        // setFiltered={setFiltered}
         activeFilter={activeFilter}
-        setactiveFilter={setactiveFilter}
+        // setactiveFilter={setactiveFilter}
       />
     </section>
   );

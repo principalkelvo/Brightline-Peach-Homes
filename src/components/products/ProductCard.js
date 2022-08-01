@@ -13,8 +13,6 @@ function ProductCard({ estates, activeFilter }) {
   //   setFiltered(featured);
   //   console.log("featured", featured);
   // }, []);
-
-  console.log("activeFilter", activeFilter);
   const estatesCard = estates.map((estate) => (
     <div className={ProductCardCSS.fullCard} key={estate.id}>
       <Link className={ProductCardCSS.link} to={`/product/${estate.id}`}>
