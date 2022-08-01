@@ -1,9 +1,27 @@
+.search {
+  position: relative;
+  width: 11em;
+  height: 3em;
+  display: flex;
+  align-items: center;
+}
 .input {
   height: 3em;
-  width: 21em;
+  width: 100%;
   border-radius: 1.25rem;
+  border: 2px solid black;
   padding: 0.525rem;
   background-color: transparent;
-  border: 2px solid black;
   margin: 2em 0;
+  position: relative;
+}
+
+.searchInput {
+  position: absolute;
+  right: 1rem;
+  z-index: 1;
+  background: none;
+  border: none;
+  font-size: 1em;
+  cursor: pointer;
 }

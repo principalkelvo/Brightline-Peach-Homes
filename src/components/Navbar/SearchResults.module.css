@@ -1,0 +1,9 @@
+.section {
+  background: var(--lightBlue);
+  padding: 1em;
+  text-align: left;
+}
+.noResults {
+  color: var(black);
+  margin: 2em 0;
+}
