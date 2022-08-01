@@ -7,40 +7,45 @@
   margin: 2.125rem auto;
 }
 
-.formContainer h3{
-    letter-spacing: .2rem;
+.formContainer h3 {
+  letter-spacing: 0.2rem;
 }
 
-.category{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    /* margin: 1em 0; */
+.category {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* margin: 1em 0; */
 }
 
-
-
-.categoryRent,.categorySale{
-    text-transform: capitalize;
-    letter-spacing: .2rem;
-    border: 1px solid black;
-    width: 40%;
-    padding: .3em;
-    margin: .625rem;
-    color: red;
-    border-radius: 1.875rem;
-    cursor: pointer;
-
+.categoryRent,
+.categorySale {
+  font-weight: 500;
+  font-size: 0.9em;
+  text-transform: capitalize;
+  letter-spacing: 0.2rem;
+  border: 1px solid black;
+  width: 40%;
+  padding: 0.4em;
+  margin: 0.625rem;
+  color: red;
+  border-radius: 1.875rem;
+  cursor: pointer;
+  transition: all 0.16s ease-in-out;
 }
-
-.activeCategory{
-    color: green;
-    background: #fff;
-    border: none;
-
+.categoryRent:hover,
+.categorySale:hover {
+  background: rgba(255, 255, 255, 0.425);
 }
-
+.activeCategory {
+  color: green;
+  background: #fff;
+  border: none;
+}
+.activeCategory:hover {
+  background: #fff;
+}
 .form .inputs {
   display: flex;
   flex-wrap: wrap;
@@ -48,8 +53,6 @@
   align-items: center;
   justify-content: space-between;
 }
-
-
 
 .form button {
   font-size: 1.125rem;
