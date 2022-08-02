@@ -7,6 +7,13 @@ function ProductView({ estates }) {
   console.log("estates 23", estates);
   console.log("estates 23 first", id);
 
+  // const [activeThumb, setActiveThumb ] = useState("");
+  // function handleActiveThumb(image) {
+  //   console.log(image)
+  //   setActiveThumb("hello");
+  // }
+  // console.log(activeThumb);
+
   // const filteredEsto = estates.filter((estate) => String(estate.id )=== id);
   // console.log("filteredEsto", filteredEsto);
   // const mapEstate = filteredEsto.map((estate) =>(
@@ -26,7 +33,7 @@ function ProductView({ estates }) {
   //   ));
 
   return (
-    <section className={ProductViewCSS.product} >
+    <section className={ProductViewCSS.product}>
       {/* {mapEstate} */}
       {estates
         .filter((estate) => String(estate.id) === id) //change id to string for better comparison (type safe comparison)
@@ -41,7 +48,10 @@ function ProductView({ estates }) {
                 <div className={ProductViewCSS.productVariants}>
                   {estate.variants.map((variant, index) => (
                     <div className={ProductViewCSS.variant} key={index}>
-                      <img src={variant} alt="variant" />
+                      <img
+                        src={variant}
+                        alt="variant"
+                      />
                     </div>
                   ))}
                 </div>
@@ -52,7 +62,7 @@ function ProductView({ estates }) {
                   <button>Book Now</button>
                 </div>
                 <div className={ProductViewCSS.details}>
-                  <ul >
+                  <ul>
                     <li>SqFt: {estate.size}</li>
                     <li>ratings: {estate.rating}/5</li>
                   </ul>
@@ -63,26 +73,30 @@ function ProductView({ estates }) {
               <div className="column is-3">
                 <div className={ProductViewCSS.desc}>
                   <h5>Description</h5>
-                <div className={ProductViewCSS.content}>
-                  <p>{estate.description}</p>
+                  <div className={ProductViewCSS.content}>
+                    <p>{estate.description}</p>
                   </div>
                 </div>
               </div>
               <div className="column is-3">
-                <div className={ProductViewCSS.desc }>
+                <div className={ProductViewCSS.desc}>
                   <h5>Contact Us</h5>
-                <div className={ProductViewCSS.content}>
-                  <p>{estate.contacts.phoneNumber}</p>
-                  <p>{estate.contacts.email}</p>
-                  <p>{estate.contacts.email}</p>
+                  <div className={ProductViewCSS.content}>
+                    <p>{estate.contacts.phoneNumber}</p>
+                    <p>{estate.contacts.email}</p>
+                    <p>{estate.contacts.email}</p>
                   </div>
                 </div>
               </div>
               <div className="column is-3">
-                <div className={ProductViewCSS.desc + " "+ ProductViewCSS.noRightBorder}>
+                <div
+                  className={
+                    ProductViewCSS.desc + " " + ProductViewCSS.noRightBorder
+                  }
+                >
                   <h5>More Details</h5>
-                <div className={ProductViewCSS.content}>
-                  <p>{estate.description}</p>
+                  <div className={ProductViewCSS.content}>
+                    <p>{estate.description}</p>
                   </div>
                 </div>
               </div>

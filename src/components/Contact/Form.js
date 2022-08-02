@@ -50,7 +50,7 @@ function Form({ onAddHome }) {
   const handleOnSubmit = (e) => {
     e.preventDefault();
     console.log(input);
-    fetch("https://cubic-handsomely-quicksand.glitch.me/homes", {
+    fetch("https://api-bright.herokuapp.com/homes", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
