@@ -19,7 +19,7 @@ function App() {
 
   //get items from the server and update  the state accordingly
   const fetchHomes = () => {
-    fetch("http://localhost:4000/homes")
+    fetch("https://cubic-handsomely-quicksand.glitch.me/homes")
       .then((r) => r.json())
       .then((homes) => setData(homes))
       .then((homes) => setSearchResults(homes));

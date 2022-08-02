@@ -50,7 +50,7 @@ function Form({ onAddHome }) {
   const handleOnSubmit = (e) => {
     e.preventDefault();
     console.log(input);
-    fetch("http://localhost:4000/homes", {
+    fetch("https://cubic-handsomely-quicksand.glitch.me/homes", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
