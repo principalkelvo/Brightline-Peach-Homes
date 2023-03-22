@@ -19,7 +19,7 @@ function App() {
 
   //get items from the server and update  the state accordingly
   const fetchHomes = () => {
-    fetch("https://api-bright.herokuapp.com/homes")
+    fetch("https://spurious-volcano-echinacea.glitch.me/homes")
       .then((r) => r.json())
       .then((homes) => setData(homes))
       .then((homes) => setSearchResults(homes));

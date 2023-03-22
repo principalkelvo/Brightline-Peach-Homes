@@ -50,7 +50,7 @@ function Form({ onAddHome }) {
   const handleOnSubmit = (e) => {
     e.preventDefault();
     console.log(input);
-    fetch("https://api-bright.herokuapp.com/homes", {
+    fetch("https://spurious-volcano-echinacea.glitch.me/homes", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
